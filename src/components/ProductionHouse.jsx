@@ -47,7 +47,7 @@ function ProductionHouse() {
             <div 
             className='border-[2px] border-gray-600 rounded-lg hover:scale-110
             transition-all duration-300 ease-in-out cursor-pointer 
-            relative shadow-xl shadow-black'>
+            relative shadow-xl shadow-white/10'>
                 <video src={item.video} autoPlay loop playsInline muted
                 className='absolute top-0 w-[400px] rounded-md z-0 opacity-0 hover:opacity-50'/>
                 <img src={item.image} className='w-full z[1]' />
